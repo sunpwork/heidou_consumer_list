@@ -13,3 +13,4 @@
 
 Route::post('topUsers/update', 'TopUsersController@update');
 Route::get('topUsers', 'TopUsersController@index');
+Route::get('/', 'TopUsersController@index');
